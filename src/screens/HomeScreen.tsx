@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { View, ScrollView, StyleSheet, RefreshControl, TouchableWithoutFeedback, Keyboard } from 'react-native';
-import { useWeatherStore } from '../stores/weatherStore';
-import { Container } from '../components/ui/Container';
-import { Text } from '../components/ui/Text';
-import { Button } from '../components/ui/Button';
-import { SearchBar } from '../components/ui/SearchBar';
-import { CurrentWeather } from '../components/weather/CurrentWeather';
-import { Forecast } from '../components/weather/Forecast';
-import { SPACING } from '../constants';
+import { useWeatherStore } from '@/stores/weatherStore';
+import { Container } from '@/components/ui/Container';
+import { Text } from '@/components/ui/Text';
+import { Button } from '@/components/ui/Button';
+import { SearchBar } from '@/components/ui/SearchBar';
+import { CurrentWeather } from '@/components/weather/CurrentWeather';
+import { Forecast } from '@/components/weather/Forecast';
+import { SPACING } from '@/constants';
 
 export const HomeScreen: React.FC = () => {
   const {

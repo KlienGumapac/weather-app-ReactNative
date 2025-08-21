@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import * as Location from 'expo-location';
-import { Location as LocationType } from '../types/weather';
+import { Location as LocationType } from '@/types/weather';
 
 export const useLocation = () => {
   const [location, setLocation] = useState<LocationType | null>(null);

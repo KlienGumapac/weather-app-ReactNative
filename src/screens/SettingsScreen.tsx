@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, ScrollView, StyleSheet, Switch } from 'react-native';
-import { useWeatherStore } from '../stores/weatherStore';
-import { Container } from '../components/ui/Container';
-import { Card } from '../components/ui/Card';
-import { Text } from '../components/ui/Text';
-import { Button } from '../components/ui/Button';
+import { useWeatherStore } from '@/stores/weatherStore';
+import { Container } from '@/components/ui/Container';
+import { Card } from '@/components/ui/Card';
+import { Text } from '@/components/ui/Text';
+import { Button } from '@/components/ui/Button';
 import { Ionicons } from '@expo/vector-icons';
-import { SPACING, COLORS } from '../constants';
+import { SPACING, COLORS } from '@/constants';
 
 export const SettingsScreen: React.FC = () => {
   const { unit, theme, setUnit, setTheme, favorites, removeFromFavorites } = useWeatherStore();

@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, TouchableOpacity, StyleSheet, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useWeatherStore } from '../stores/weatherStore';
-import { COLORS, SPACING } from '../constants';
+import { useWeatherStore } from '@/stores/weatherStore';
+import { COLORS, SPACING } from '@/constants';
 
 interface SidebarProps {
   activeTab: string;

@@ -1,6 +1,6 @@
 import { create } from 'zustand';
-import { WeatherState, WeatherData, ForecastData, Location } from '../types/weather';
-import { weatherService } from '../services/weatherService';
+import { WeatherState, WeatherData, ForecastData, Location } from '@/types/weather';
+import { weatherService } from '@/services/weatherService';
 
 interface WeatherStore extends WeatherState {
 

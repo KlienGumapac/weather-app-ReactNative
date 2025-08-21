@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useWeatherStore } from '../../stores/weatherStore';
-import { Card } from '../ui/Card';
-import { Text } from '../ui/Text';
-import { WeatherIcon } from './WeatherIcon';
+import { useWeatherStore } from '@/stores/weatherStore';
+import { Card } from '@/components/ui/Card';
+import { Text } from '@/components/ui/Text';
+import { WeatherIcon } from '@/components/weather/WeatherIcon';
 import { 
   formatTemperature, 
   formatHumidity, 
@@ -14,8 +14,8 @@ import {
   getFeelsLikeTemperature,
   getLocationName,
   isLocationFavorite
-} from '../../utils/weather';
-import { SPACING, COLORS } from '../../constants';
+} from '@/utils/weather';
+import { SPACING, COLORS } from '@/constants';
 
 export const CurrentWeather: React.FC = () => {
   const { currentWeather, currentLocation, unit, favorites, toggleFavorite, theme } = useWeatherStore();

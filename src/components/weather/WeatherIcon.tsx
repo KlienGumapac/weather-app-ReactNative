@@ -1,9 +1,9 @@
 import React from 'react';
 import { Image, ImageStyle, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useWeatherStore } from '../../stores/weatherStore';
-import { COLORS } from '../../constants';
-import { getWeatherIcon } from '../../utils/weather';
+import { useWeatherStore } from '@/stores/weatherStore';
+import { COLORS } from '@/constants';
+import { getWeatherIcon } from '@/utils/weather';
 
 interface WeatherIconProps {
   iconCode: string;

@@ -161,7 +161,6 @@ The app uses Zustand for state management with persistence:
 ## Connect with Me
 
 - **GitHub:** [@KlienGumapac](https://github.com/KlienGumapac)
-- **Portfolio:** [klien.dev](https://klien.dev)
 
 ## License
 

@@ -1,5 +1,5 @@
-import { WeatherData, ForecastData, Location } from '../types/weather';
-import { API_CONFIG } from '../constants';
+import { WeatherData, ForecastData, Location } from '@/types/weather';
+import { API_CONFIG } from '@/constants';
 
 export const formatTemperature = (temp: number, unit: 'metric' | 'imperial'): string => {
   const roundedTemp = Math.round(temp);
